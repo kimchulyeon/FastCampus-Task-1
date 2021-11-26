@@ -1,0 +1,146 @@
+/* COMMON */
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+  height: 1000px;
+}
+a {
+  text-decoration: none;
+
+}
+
+/* HEADER */
+header {
+
+}
+.container {
+  z-index: 9;
+  width: 100%;
+  height: 64px;
+  background-color: #f44336;
+  position: fixed;
+  
+
+}
+.container .homeBtn {
+  height: 64px;
+  width: 300px;
+  position: relative;
+}
+.container .homeBtn a.title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  width: 300px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 30px;
+  cursor: pointer;
+  z-index: 1;
+}
+.container ul.menu {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 4px 8px 0 rgb(139 139 139);
+}
+
+  
+}
+.container ul.menu li {
+  position: relative;
+}
+.container ul.menu li a {
+  width: 300px;
+  height: 25px;
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: 'Do Hyeon', sans-serif;
+  font-weight: 200;
+  padding: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.container ul.menu li a:hover {
+  opacity: .5;
+}
+.container ul.menu li:first-child a{
+  margin-left: 0;
+}
+
+.container a.logout {
+  position: absolute;
+  top: 23px;
+  right: 40px;
+  font-size: 1.25rem;
+  color: #fff;
+}
+.container a.logout:hover {
+  opacity: .5;
+}
+
+/* ASIDE */
+
+.side-bar {
+  position: fixed;
+  width: 230px;
+  height: 100vh;
+  background-color: rgb(227, 231, 234);
+  border-right: 1px solid rgba(25, 23, 23, .2);
+  box-shadow: -1px 0px 13px 1px #999;
+  
+}
+.side-bar .title {
+  position: absolute;
+  top: 100px;
+  left: 17%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #999;
+}
+.side-bar ul.option {
+  position: absolute;
+  /* left: 17%; */
+  top: 140px;
+  font-size: 1.20rem;
+}
+.side-bar ul.option li {
+  margin-top: 20px;
+  cursor: pointer;
+  width: 230px;
+  height: 40px;
+  position: relative;
+}
+.side-bar ul.option li:first-child {
+  background-color: rgb(203, 198, 198);
+}
+.side-bar ul.option li:first-child a {
+  color: #999;
+}
+
+
+.side-bar ul.option li:hover {
+  background-color: rgb(61, 56, 56);
+}
+.side-bar ul.option li:hover a {
+  color: #fff;
+}
+.side-bar ul.option li:nth-child(3) {
+  margin-top: 50px;
+}
+.side-bar ul.option li a {
+  display: block;
+  position: absolute;
+  left: 40px;
+  color: #000;
+  top: 13px;
+}
